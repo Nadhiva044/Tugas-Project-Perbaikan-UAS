@@ -6,7 +6,7 @@ turn_left()
 turn_left()
 turn_left()
 move()
-while not at_goal():
+while (not at_goal()):
     if right_is_clear():
         move()
         if wall_on_right():
